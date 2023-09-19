@@ -7,10 +7,10 @@ public class Q6 {
     public static void main(String[] args) {
         Scanner calc = new Scanner(System.in);
         
-        System.out.print("Digite o primeiro número: ");
+        System.out.println("Digite o primeiro número: ");
         double numero1 = calc.nextDouble();
         
-        System.out.print("Digite o segundo número: ");
+        System.out.println("Digite o segundo número: ");
         double numero2 = calc.nextDouble();
 
         double resultado;
