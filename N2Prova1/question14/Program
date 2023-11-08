@@ -1,0 +1,39 @@
+import entities.enuns.DiasDaSemana;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		LocalDate dataAtual = LocalDate.now();
+		DayOfWeek diaDaSemana = dataAtual.getDayOfWeek();
+
+		DiasDaSemana diaEnum = null;
+		switch (diaDaSemana) {
+		case SUNDAY:
+			diaEnum = DiasDaSemana.DOMINGO;
+			break;
+		case MONDAY:
+			diaEnum = DiasDaSemana.SEGUNDA;
+			break;
+		case TUESDAY:
+			diaEnum = DiasDaSemana.TERCA;
+			break;
+		case WEDNESDAY:
+			diaEnum = DiasDaSemana.QUARTA;
+			break;
+		case THURSDAY:
+			diaEnum = DiasDaSemana.QUINTA;
+			break;
+		case FRIDAY:
+			diaEnum = DiasDaSemana.SEXTA;
+			break;
+		case SATURDAY:
+			diaEnum = DiasDaSemana.SABADO;
+			break;
+		}
+
+		System.out.println("Hoje é " + diaEnum);
+	}
+}
