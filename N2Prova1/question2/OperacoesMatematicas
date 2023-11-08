@@ -1,0 +1,29 @@
+package question2;
+
+public class OperacoesMatematicas {
+	
+	public static void Soma(double a, double b) {
+		System.out.println(a+b);
+	}
+	
+	public static void Subtracao(double a, double b) {
+		System.out.println(a-b);
+	}
+	public static void Divisao(double a, double b) {
+		System.out.println(a/b);
+	}
+	public static void Multiplicacao(double a, double b) {
+		System.out.println(a*b);
+	}
+	public static void main(String[] args) {
+		
+		Soma(10,2);
+		Subtracao(10,2);
+		Divisao(10,2);
+		Multiplicacao(10,2);
+		
+		
+
+	}
+
+}
