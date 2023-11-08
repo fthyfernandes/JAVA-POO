@@ -1,0 +1,26 @@
+1.     Classe com Atributos e MÃ©todos:    
+   Crie uma classe `Pessoa` com atributos como nome, idade e mÃ©todos para exibir informaÃ§Ãµes da pessoa.
+
+2.     MÃ©todos EstÃ¡ticos:    
+   Crie uma classe `OperacoesMatematicas` com mÃ©todos estÃ¡ticos para realizar operaÃ§Ãµes matemÃ¡ticas, como soma, subtraÃ§Ã£o, multiplicaÃ§Ã£o e divisÃ£o.
+
+3.     Construtor:    
+   Crie uma classe `Carro` com um construtor que inicializa a marca, modelo e ano do carro.
+
+4.     Relacionamento entre Classes:    
+   Crie uma classe `Biblioteca` que contÃ©m uma lista de livros representados por outra classe `Livro`. Implemente mÃ©todos para adicionar, remover e listar os livros na biblioteca.
+
+5.     Modificadores de Acesso (Visibilidade):    
+   Crie uma classe com membros privados e forneÃ§a mÃ©todos pÃºblicos para acessar e modificar esses membros.
+
+6.     Import:    
+   Crie uma classe em um pacote e importe-a em outra classe.
+
+7.     Encapsulamento - Getters e Setters:    
+   Crie uma classe `Aluno` com atributos privados, como nome e idade, e forneÃ§a mÃ©todos getters e setters para acessÃ¡-los.
+
+8.     Sobrecarga de MÃ©todos:    
+   Crie uma classe `Calculadora` com mÃ©todos sobrecarregados para realizar operaÃ§Ãµes matemÃ¡ticas com diferentes tipos de argumentos (int, double, etc.).
+
+9.     HeranÃ§a:    
+   Crie uma classe `Forma` e, em seguida, crie classes derivadas, como `Circulo` e `Retangulo`, que herdam da classe `Forma`.
