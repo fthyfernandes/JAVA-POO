@@ -1,0 +1,55 @@
+package question1;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Pessoa {
+	String nome;
+	int idade;
+	String profissao;
+	double salario;
+	
+	public String viewInfo() {
+		return "Nome: "+
+				nome+
+				". Idade: "+
+				idade+
+				". Profissao: "+
+				profissao+
+				". Salario: "+
+				String.format("%.2f", salario);
+	}
+	
+	public double rendaBrutaAnual() {
+		return salario*12+salario;
+		
+	}
+	
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc= new Scanner(System.in);
+		Pessoa pessoa1= new Pessoa();
+		
+		System.out.println("Qual o seu nome?");
+		pessoa1.nome= sc.nextLine();
+		
+		System.out.println("Qual a sua idade?");
+		pessoa1.idade= sc.nextInt();
+		
+		System.out.println("Qual a sua profissao?");
+		sc.nextLine();
+		pessoa1.profissao= sc.nextLine();
+		
+		System.out.println("Qual o seu salario");
+		pessoa1.salario= sc.nextDouble();
+		
+		System.out.println(pessoa1.viewInfo());
+		
+		System.out.printf("A renda bruta anual é: %.2f", pessoa1.rendaBrutaAnual());
+		
+		sc.close();
+		
+
+	}
+
+}
