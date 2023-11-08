@@ -1,0 +1,3 @@
+Em Java, quando você cria uma subclasse e não usa explicitamente a palavra-chave super() para chamar o construtor da classe pai no construtor da classe filha, 
+o construtor da classe pai é chamado implicitamente, mas apenas o construtor padrão (construtor sem argumentos) da classe pai será chamado. Se a classe pai não
+tiver um construtor padrão, você receberá um erro de compilação.
